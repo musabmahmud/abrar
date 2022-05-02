@@ -1,0 +1,1779 @@
+/**======================================================================
+=========================================================================
+Template Name: Website Template of Electric Engineer
+Author: Md Musab Mahmud
+supports: 
+File: style.css
+=========================================================================
+=========================================================================
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+    2. Header area start here
+    3. Slider area start here
+    4. About area start here
+    5. Breadcumb area start here
+    6. Banner area start here
+    7. Services area start here
+    8. Team area start here
+    9. Price list area start here
+    10. Pagination area start here
+    11. Sidebar area start here
+    12. Products area start here
+    13. Testimonial area start here
+    14. Client area start here
+    15. Form area start here
+    16. Social link area start here
+    17. Blog area start here
+    18. Faq area start here
+    19. Contact area start here
+    20. Footer area start here
+    21. Gallery area start here
+
+
+
+---------------------------------------*/
+
+
+/*....................................
+1.Theme default CSS
+....................................*/
+
+
+/*....................................
+1.2. Event area start here
+....................................*/
+
+
+/* 
+  Responsive Call = @include res(media){@contents;}
+  media = m1920, m1600, m1200, m992, m768, m576, m480, m320
+*/
+
+
+/* ....................................
+1.1 Reset CSS 
+.......................................*/
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* #preloader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 99999999;
+} */
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Merriweather', serif;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+    font-family: 'Slabo 27px', serif;
+}
+
+span {
+    font-family: 'Slabo 27px', serif;
+}
+
+i.fa {
+    color: #000;
+}
+
+i.fa-phone {
+    transform: rotate(90deg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Merriweather', serif;
+}
+
+input {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    outline: none;
+}
+
+input:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+input:active {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+textarea {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+textarea:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+textarea:active {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+
+/*....................................
+3. Core area start here
+....................................*/
+
+input,
+td,
+th,
+button {
+    font-family: 'Slabo 27px', serif;
+}
+
+/***Typography***/
+
+h1,
+h2 {
+    font-weight: 900 !important;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700 !important;
+    font-family: "Raleway", sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 53px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+.f-18 {
+    font-size: 18px;
+}
+
+.f-20 {
+    font-size: 20px;
+}
+
+.f-22 {
+    font-size: 22px;
+}
+
+.f-24 {
+    font-size: 24px;
+}
+
+.f-26 {
+    font-size: 26px;
+}
+
+.f-28 {
+    font-size: 28px;
+}
+
+.f-30 {
+    font-size: 30px;
+}
+
+.f-36 {
+    font-size: 36px;
+}
+
+.f-40 {
+    font-size: 40px;
+}
+
+.f-48 {
+    font-size: 48px;
+}
+
+.f-60 {
+    font-size: 60px;
+}
+
+.f-72 {
+    font-size: 72px;
+}
+
+
+/*....................................
+2. Header area start here
+....................................*/
+
+.custom_section {
+    padding: 60px 0;
+}
+
+.section-heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.heading-section {
+    background-image: url('../img/about/bg_2.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.heading-title h1 {
+    font-size: 60px;
+    align-items: center;
+    vertical-align: middle;
+    color: #267e46;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .custom_section {
+        padding: 30px 0;
+    }
+
+    .heading-section {
+        margin-top: 45px;
+    }
+
+    .heading-title h1 {
+        font-size: 24px;
+    }
+}
+
+
+
+.divider-separator {
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.divider-separator i {
+    padding: 10px;
+}
+
+.divider-separator::before {
+    display: inline-block;
+    content: "";
+    margin-right: 5px;
+    width: 20%;
+    height: 3px;
+    background: #000;
+}
+
+.divider-separator::after {
+    display: inline-block;
+    content: "";
+    width: 20%;
+    height: 3px;
+    background: #000;
+}
+
+/*....................................
+2.1 Responsive Nav Menu start here
+....................................*/
+
+.navbar-custom {
+    padding: 0;
+    background: #fff;
+    box-shadow: 0 2px 4px 1px rgb(0 0 0 / 10%);
+    /* box-shadow: 3px 3px 5px 0px rgb(0 0 0 / 50%); */
+}
+
+.navbar-custom img {
+    height: 60px;
+    width: 60px;
+}
+
+.navbar-custom .navbar-nav li {
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.navbar-custom .navbar-nav li:last-child {
+    margin-right: 0;
+}
+
+.navbar-custom .navbar-nav li a {
+    text-transform: capitalize;
+    color: #3c3950;
+    position: relative;
+    display: block;
+    line-height: 70px;
+    height: 70px;
+}
+
+.navbar-custom .navbar-nav li a:before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #267e46;
+    -webkit-transition: -webkit-transform 0.5s cubic-bezier(1, 0, 0, 1);
+    transition: -webkit-transform 0.5s cubic-bezier(1, 0, 0, 1);
+    transition: transform 0.5s cubic-bezier(1, 0, 0, 1);
+    transition: transform 0.5s cubic-bezier(1, 0, 0, 1), -webkit-transform 0.5s cubic-bezier(1, 0, 0, 1);
+    left: 0;
+    bottom: 5px;
+    -webkit-transform-origin: right;
+    transform-origin: right;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+}
+
+.navbar-custom .navbar-nav li a:hover:before {
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.navbar-custom .navbar-nav li a.active:before {
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #267e46;
+    left: 0;
+    bottom: 5px;
+    -webkit-transform-origin: left;
+    transform-origin: left;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.navbar-custom .navbar-nav li a i{
+    margin-left: 5px;
+    transition: 1s all ease;
+}
+
+.navbar-custom .navbar-nav li:hover a i{
+    transform: rotate(180deg);
+    line-height: 50px;
+}
+.navbar-custom .navbar-nav li a.active,
+.navbar-custom .navbar-nav li a:hover {
+    color: #267e46;
+    transition: .7s all ease;
+}
+
+.sticky-fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    -webkit-box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
+    -webkit-transition: 1s all ease;
+    transition: 1s all ease;
+}
+.navbar-custom li:hover .sub_menu {
+    display: block;
+}
+.navbar-custom .sub_menu {
+    position: absolute;
+    top: 70px;
+    padding-top: 10px;
+    left: -80px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 1px 1px 4px 0px rgb(0 0 0 /.5);
+    height: auto;
+    z-index: 555;
+    transition: 1s all ease;
+    display: none;
+    border-end-start-radius: 10px;
+    border-end-end-radius: 10px;
+}
+
+.navbar-custom .sub_menu li a{
+    line-height: 30px;
+    height: 40px;
+}
+.navbar-custom .sub_menu li{
+    padding: 0;
+}
+.navbar-custom .sub_menu li a{
+    display: block;
+    width: 200px;
+}
+.navbar-custom .sub_menu li a:hover, .navbar-custom .sub_menu li a.active{
+    color: #267e46;
+}
+.navbar-custom li:hover .sub_menu {
+    display: block;
+}
+
+@media only screen and (min-width: 769px) {
+    .navbar-custom .container-custom {
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-custom {
+        background: #fff;
+    }
+
+    .navbar-custom li {
+        margin: 10px;
+    }
+
+    .navbar-custom li a {
+        position: relative;
+        line-height: 10px;
+        text-align: left;
+        display: inline;
+    }
+
+    .menu-logo {
+        position: absolute;
+        top: 0;
+        left: 15px;
+    }
+
+    .menu-logo img {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+
+/*....................................
+2.1 Responsive Nav Menu end here
+....................................*/
+
+
+/*....................................
+2.2 Top Bar start here
+....................................*/
+
+.htop {
+    background-color: #267e46;
+}
+
+.htopbar {
+    color: #fff;
+}
+
+.htb_item {
+    padding: 10px 0;
+}
+
+.htopicon_right {
+    justify-content: flex-end;
+}
+
+.htb_item a,
+.htb_item i {
+    color: #fff;
+}
+
+.htr_icon a {
+    display: inline-block;
+    width: 35px;
+    padding: 5px 0;
+    margin: 5px 0;
+    margin-left: 20px;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.htr_icon a:hover {
+    color: red;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.whatsapp {
+    background-color: #267e46;
+}
+
+.email {
+    background-color: #EA4335;
+}
+
+.htr_icon a i {
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .htopbar {
+        justify-content: space-between;
+    }
+
+    .htopicon_right {
+        justify-content: center;
+    }
+
+    .htr_icon a {
+        margin: 10px;
+    }
+}
+
+.body {
+    height: 1000vh;
+    background: red;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.owl-dots {
+    z-index: 5;
+    margin-top: -25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .slider_area {
+        margin-top: 45px;
+    }
+}
+
+
+/*....................................
+2.2 Top Bar end here
+....................................*/
+
+
+
+
+
+/*....................................
+21. Our Service area starts Ends
+....................................*/
+.service-item {
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.service-item .service-item-list {
+    background-color: #267e46;
+    text-align: center;
+    width: calc(20% - 20px);
+    padding: 60px 30px;
+    align-items: center;
+    margin: 10px;
+}
+
+.service-item .service-item-list:hover {
+    transform: translateY(-20px);
+    transition: .5s ease;
+    cursor: pointer;
+    background-color: #d9534f;
+}
+
+.service-item .service-item-list i {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.service-item .service-item-list span {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+    display: block;
+}
+
+@media only screen and (max-width: 992px) {
+    .service-item .service-item-list {
+        width: calc(25% - 10px);
+        padding: 50px 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .service-item .service-item-list {
+        width: calc(50% - 10px);
+        padding: 40px 10px;
+        margin: 5px;
+    }
+}
+
+/*....................................
+21. Our Service area end here
+....................................*/
+
+
+
+/*....................................
+21. About description area start here
+....................................*/
+.about-description {
+    background-color: #eaeaea;
+}
+
+.about-desitem-left {
+    width: 80%;
+}
+
+.about-desitem-right {
+    padding: 40px 0;
+}
+
+.about-desitem-right h2 {
+    margin-bottom: 20px;
+}
+
+.about-desitem-right h2::after {
+    content: "";
+    display: block;
+    width: 20%;
+    background-color: #267e46;
+    height: 3px;
+    margin-top: 2px;
+}
+
+.about-desitem-right h4 {
+    margin-bottom: 30px;
+}
+
+.about-desitem-right p {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.about-desitem-right a {
+    padding: 10px 30px;
+    background-color: #267e46;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.about-desitem-right a:hover {
+    background-color: #d9534f;
+    transition: .5s ease;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-desitem-left {
+        width: 100%;
+    }
+}
+
+/*....................................
+21. About description area end here
+....................................*/
+
+
+/*....................................
+21. Choose description area start here
+....................................*/
+.choose-item li {
+    margin: 10px 0;
+
+}
+
+.choose-item li span {
+    color: #267e46;
+    margin-right: 5px;
+}
+
+/*....................................
+21. Choose description area end here
+....................................*/
+
+
+/*....................................
+21. Service area start here
+....................................*/
+.service-area {}
+
+.service-body {
+    /* padding-bottom: 50px; */
+}
+
+.service-body .service-item {
+    position: relative;
+    box-shadow: 0px 0px 5px 0px #9e9e9e;
+    margin-bottom: 30px;
+}
+
+.service-body .service-item:hover {
+    box-shadow: none;
+}
+
+.service-body .service-item .ser-item-body:hover .service-item-footer {
+    transition: .5s ease;
+    background-color: #d9534f;
+    cursor: pointer;
+}
+
+.service-body .service-item .ser-item-header {
+    height: 200px;
+}
+
+.service-body .service-item .ser-item-body {
+    padding: 20px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.service-body .service-item img {
+    height: 200px;
+}
+
+.service-body .service-item .ser-item-body h3 {
+    margin-bottom: 10px;
+}
+
+.service-body .service-item .ser-item-body p {
+    text-align: justify;
+}
+
+.service-body .service-item .ser-item-body .service-item-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    background-color: #267e46;
+    padding: 10px 0;
+}
+
+.service-body .service-item .ser-item-body a {
+    border-radius: 10px;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+}
+
+@media only screen and (max-width: 575px) {
+
+    .service-body .service-item {
+        margin-bottom: 20px;
+    }
+
+    .service-body .service-item .ser-item-body {
+        padding: 20px;
+        height: auto;
+    }
+}
+
+/*....................................
+21. Service area end here
+....................................*/
+
+/*....................................
+21. Section Divider area start here
+....................................*/
+.section-divider {
+    background-color: #267e46;
+}
+
+.sec-div-body {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    line-height: 25px;
+}
+
+.sec-div-body .sec-div-text p {
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.sec-div-body a {
+    border-radius: 10px;
+    font-weight: 600;
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #d9534f;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .sec-div-body {
+        display: block;
+    }
+
+    .sec-div-body .sec-div-text p {
+        font-size: 24px;
+        text-align: center;
+
+        line-height: 40px;
+    }
+
+    .sec-div-body .sec-div-link {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+/*....................................
+21. Section Divider area end here
+....................................*/
+
+
+/*....................................
+21. Count area starts here
+....................................*/
+.section-count {}
+
+.count-item {
+    text-align: center;
+}
+
+.count-item .count-number {
+    font-size: 52px;
+    color: #267e46;
+    font-weight: 500;
+}
+
+.count-item .count-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .count-item {
+        margin: 10px auto;
+    }
+}
+
+/*....................................
+21. Count area ends here
+....................................*/
+
+
+
+
+/*....................................
+21. Testimonial Area Start here
+....................................*/
+
+.testimonial-area {
+    background-color: #eaeaea;
+}
+
+.testimonial-item {
+    padding: 10px;
+}
+
+.testimonial-item .testimonial-content {
+    padding: 35px 25px 35px 50px;
+    margin-bottom: 20px;
+    background: #fff;
+    position: relative;
+}
+
+.testimonial-item .testimonial-content:before {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    border-top: 15px solid #718076;
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+.testimonial-item .testimonial-content:after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    border-top: 15px solid #718076;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+.testimonial-content .testimonial-icon {
+    width: 50px;
+    height: 45px;
+    background: #267e46;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    line-height: 42px;
+    position: absolute;
+    top: 37px;
+    left: -19px;
+}
+
+.testimonial-content .testimonial-icon i {
+    color: #fff;
+}
+
+.testimonial-content .testimonial-icon:before {
+    content: "";
+    border-bottom: 16px solid #267e46;
+    border-left: 18px solid transparent;
+    position: absolute;
+    top: -16px;
+    left: 1px;
+}
+
+.testimonial-item .description {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    color: #8a8a8a;
+    line-height: 23px;
+    margin: 0;
+}
+
+.testimonial-item .title {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0 0 5px 0;
+}
+
+.testimonial-item .post {
+    display: block;
+    font-size: 14px;
+    color: #267e46;
+}
+
+.testimonial-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-item:hover .testimonial-icon {
+    background: #d9534f;
+    transition: .5s ease;
+}
+
+.testimonial-item:hover .testimonial-content .testimonial-icon:before {
+    border-bottom-color: #d9534f;
+    transition: .5s ease;
+}
+
+.testimonial-item:hover .post {
+    transition: .5s ease;
+    color: #d9534f;
+}
+
+.testimonial-footer .tes-footer-left {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 3px solid #267e46;
+    padding: 5px;
+}
+
+.testimonial-item:hover .testimonial-footer .tes-footer-left {
+    border-color: #d9534f;
+    transition: .5s ease;
+}
+
+.testimonial-footer .tes-footer-left img {
+    border-radius: 50%;
+}
+
+.testimonial-footer .tes-footer-right {
+    transform: translateY(25px);
+}
+
+@media only screen and (max-width: 575px) {
+    .testimonial-item {
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+/*....................................
+21. Gallery area start here
+....................................*/
+.gallery-area {
+    background-color: #eaeaea;
+}
+
+.gallery-body {
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+
+.pictures {}
+
+.pictures .item {
+    position: relative;
+}
+
+.pictures .item::before {
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.68);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.9s ease 0s;
+    transition: all 0.9s ease 0s;
+}
+
+.pictures .item:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.pictures .item:hover .item-description {
+    opacity: 1;
+    -webkit-transition: 1s;
+    transition: 1s;
+    visibility: visible;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.pictures .item-description {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.pictures .item-description a i {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    color: #000;
+    background-color: #fff;
+    left: 50%;
+    padding: 20px;
+    margin-left: -30px;
+    margin-top: -30px;
+    opacity: 1;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    -webkit-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+/*....................................
+21. Gallery area end here
+....................................*/
+
+/*....................................
+21. Contact Form area start here
+....................................*/
+.contact-form {
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 6%);
+    transition: 1s all ease;
+    padding: 50px 70px;
+    /* background-color: #ffffff; */
+    /* background-color: #eaeaea; */
+}
+
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #818a91;
+    color: #373a3c;
+    flex-grow: 1;
+    min-height: 50px;
+    padding: 0px 16px;
+    margin-bottom: 20px;
+    color: #3d4459;
+    background-color: #fafafa;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 5px;
+}
+
+.contact-form-submit {
+    text-align: right;
+}
+
+.contact-form .contact-form-submit button {
+    background-color: #00dafc;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 1;
+    font-size: 15px;
+    border: none;
+    padding: 12px 24px;
+    color: #fff;
+    transition: all .3s;
+    border-radius: 30px;
+}
+
+.contact-form button i {
+    color: #fff;
+    margin-left: 5px;
+}
+
+.contact-form-right {
+    padding: 40px;
+}
+
+.contact-form-right h3 {
+    margin: 15px 0;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .contact-form {
+        padding: 50px 20px;
+    }
+}
+
+/*....................................
+21. Contact Form area end here
+....................................*/
+
+/*....................................
+21. meet-area area end here
+....................................*/
+.meet-area {
+    padding-bottom: 50px;
+}
+
+.meet-item {
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 5%);
+    transition: 1s all ease;
+    background-color: #fff;
+    padding: 50px 0;
+    width: 100%;
+    border-radius: 15px 15px 15px 70px;
+    margin-bottom: 50px;
+}
+
+.meet-item i {
+    font-size: 48px;
+    color: #00dafc;
+    margin-bottom: 20px;
+}
+
+.meet-item span {
+    display: block;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.meet-item a {
+    color: #000;
+}
+
+/*....................................
+21. meet-area area end here
+....................................*/
+
+
+/*....................................
+21. talk-area start end here
+....................................*/
+
+
+/*....................................
+21. talk-area start end here
+....................................*/
+.talk-area {
+    background-image: url('../img/contact/background.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.talk-item-left {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.talk-item-left h4 {
+    padding: 20px 0;
+}
+
+.talk-item-left a {
+    background-color: #00dafc;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 1;
+    font-size: 15px;
+    border: none;
+    padding: 12px 24px;
+    color: #fff;
+    transition: all .3s;
+    border-radius: 30px;
+    text-align: right;
+}
+
+.talk-item-left a i {
+    margin-left: 5px;
+    color: #fff;
+}
+
+.talk-item-right {
+    overflow: hidden;
+    border-radius: 260px 50px 50px 50px;
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 12%);
+}
+
+.talk-item-right img {
+    border-radius: 50%;
+}
+
+/*....................................
+21. Talk area end here
+....................................*/
+.breadcrumb-area {
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+    .breadcrumb-area {
+        padding-top: 40px;
+    }
+}
+
+/*....................................
+21. Service Item Content start here
+....................................*/
+.service-nav {}
+
+.service-nav .service-nav-ul li a,
+.service-nav .service-nav-ul li .active {
+    display: block;
+    color: #000;
+    position: relative;
+    padding: 10px 15px;
+    transition-timing-function: cubic-bezier(.58, .3, .005, 1);
+}
+
+.service-nav .service-nav-ul li a.active {
+    background-color: #267e46;
+    color: #fff;
+}
+
+/* .service-nav .service-nav-ul li a::after {
+    background-color: #267e46;
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: .3s;
+    display: none;
+} */
+
+.service-nav .service-nav-ul li a:hover {
+    background-color: #267e46;
+    color: #fff;
+}
+
+/* .service-nav .service-nav-ul li a:hover::after {
+    background-color: #267e46;
+    display: block;
+    transition: 1s all ease-in;
+    transform: scale(1);
+    color: #fff;
+} */
+
+
+
+
+
+
+
+
+
+
+.service-item-content .sic-header {
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.service-item-content .sic-header img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.service-item-content .sic-body h2 {
+    margin-bottom: 20px;
+}
+
+.service-item-content .sic-body h2::after {
+    content: "";
+    display: block;
+    width: 20%;
+    background-color: #267e46;
+    height: 3px;
+    margin-top: 2px;
+}
+
+.service-item-content .sic-body p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+
+.service-item-content .sic-footer h4 {
+    margin-bottom: 20px;
+}
+
+.service-item-content .sic-footer h4::after {
+    content: "";
+    display: block;
+    width: 20%;
+    background-color: #267e46;
+    height: 2px;
+    margin-top: 5px;
+}
+
+.service-item-content .sic-footer .sic-footer-features {
+    margin-bottom: 30px;
+}
+
+.service-item-content .sic-footer .sic-footer-features li {
+    margin-bottom: 10px;
+}
+
+.service-item-content .sic-footer .sic-footer-features li i {
+    margin-right: 5px;
+    color: #267e46;
+}
+
+.service-item-content .sic-footer p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/*....................................
+21. Service Item Content end here
+....................................*/
+
+/*....................................
+21. buy-area start here
+....................................*/
+.buy-area {
+    box-shadow: 1px 1px 4px 0px rgb(0 0 0 / 0.1);
+}
+
+
+
+.product-grid {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 1px 1px 4px 0px rgb(0 0 0 / 50%);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.product-grid:before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.product-grid:hover:before {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.product-grid .product-image {
+    overflow: hidden;
+    position: relative;
+}
+
+.product-grid .product-image a {
+    display: block;
+}
+
+.product-grid .product-image img {
+    width: 100%;
+    height: 200px;
+}
+
+.product-discount-label {
+    color: #fff;
+    background-color: #000;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.product-grid .social {
+    width: 100%;
+    padding: 30px 0;
+    margin: 0;
+    list-style: none;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+}
+
+.product-grid .social li {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(300%);
+    transition: all 0.5s ease 0s;
+}
+
+.product-grid .social li:nth-child(2) {
+    transition-delay: 0.05s;
+}
+
+.product-grid .social li:nth-child(3) {
+    transition-delay: 0.13s;
+}
+
+.product-grid .social li:nth-child(4) {
+    transition-delay: 0.16s;
+}
+
+.product-grid:hover .social li {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.product-grid .social li a {
+    color: #000;
+    background-color: #fff;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    margin: 0 2px 10px;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    z-index: 2;
+    transition: all 0.3s;
+}
+
+.product-grid .social li a:hover {
+    color: #fff;
+    background-color: #d9534f;
+}
+
+.product-grid .product-content {
+    padding: 18px;
+    position: relative;
+    z-index: 2;
+    background-color: white;
+}
+
+.product-grid .title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+
+.product-grid .title {
+    color: #000;
+}
+
+.product-grid:hover .title {
+    color: #d9534f;
+}
+
+.product-grid .price {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.product-grid .price span {
+    color: #777;
+    margin: 0 0 0 5px;
+    font-weight: 300;
+    text-decoration: line-through;
+    display: inline-block;
+}
+
+@media only screen and (max-width:990px) {
+    .product-grid {
+        margin-bottom: 30px;
+    }
+}
+
+.pocial {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #d9534f;
+    padding: 5px;
+    border-radius: 5px;
+    animation: new .5s linear infinite;
+    margin-top: -50px;
+}
+
+.pocial a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+@keyframes new {
+    0% {
+        transform: scaleX(1);
+    }
+
+    50% {
+        transform: scaleX(.95);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+/*....................................
+21. buy-area end here
+....................................*/
+
+/*....................................
+21. Footer area start here
+....................................*/
+
+.footer-area {}
+
+.footer_item {}
+
+.footer_item h3 {
+    margin-bottom: 20px;
+}
+
+.footer_item .footer_logo {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer_iText {
+    margin-bottom: 30px;
+}
+
+.footer_icon {
+    /* display: flex; */
+}
+
+.footer-item-list li {
+    margin-bottom: 10px;
+}
+
+.footer-item-list li:hover a {
+    color: #d9534f;
+    transition: .5s ease;
+}
+
+.footer-item-list li:last-child {
+    margin-bottom: 0px;
+}
+
+.footer-item-list li a {
+    color: #267e46;
+}
+
+.footer-left-icon a {
+    padding: 10px 15px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.footer-left-icon a i {
+    color: #fff;
+}
+
+.footer_right li a {
+    color: #000;
+}
+
+.footer_right li a i {
+    font-size: 12px;
+    color: #000;
+}
+
+.foo_right_bottom h4 {
+    margin: 20px 0 10px 0;
+}
+
+.foo_right_bottom .facebook-follow {
+    border: none;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer_item h3 {
+        margin: 20px 0;
+    }
+}
+
+
+/*....................................
+21. Footer Bottom Starts
+....................................*/
+
+.footer_bottom {
+    background-color: #267e46;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.footer_bottom p {
+    text-align: center;
+    color: #fff;
+}
+
+.footer_bottom p a {
+    color: #000;
+}
+
+.footer_bottom p a:hover {
+    color: #d9534f;
+    transition: 1s all ease;
+}
+
+
+/*....................................
+21. Footer Bottom Ends
+....................................*/
+
+
+/*....................................
+21. Footer area end here
+....................................*/
+
+
+
+
+/*....................................
+22. Event area start here
+....................................*/
+
+
+/*# sourceMappingURL=style.css.map */
