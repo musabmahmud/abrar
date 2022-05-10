@@ -10,11 +10,6 @@
     });
 
 
-    /*--------------------------
-    2. Menu
-    ---------------------------- */
-
-
     /*----------------------------
     3. Mobile Menu Activation
     -----------------------------*/
@@ -25,10 +20,6 @@
         onePage: true
     });
 
-
-    /*--------------------------
-    4. Sticky Menu 
----------------------------- */
     /*--------------------------
     4. Sticky Menu 
 ---------------------------- */
@@ -40,26 +31,12 @@
         }
     });
 
-    $(window).bind("resize", function () {
-        if ($(this).width() <= 768) {
-            $('.menu-area').removeClass('navbar-custom')
-        } else {
-            $('.menu-area').addClass('navbar-custom')
-        }
-    }).resize();
-
     $(document).ready(function () {
         $('ul li a').click(function () {
             $('li a').removeClass("active");
             $(this).addClass("active");
         });
     });
-
-    // $(".navbar-nav a").on("click", function(e) {
-    //     var a = $(this);
-    //     $("html, body").stop().animate({ scrollTop: $(a.attr("href")).offset().top - 0 }, 1500, "easeInOutExpo"), e.preventDefault()
-    // })
-
 
     /*----------------------------
     5. owl active
