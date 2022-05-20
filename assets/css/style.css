@@ -292,7 +292,7 @@ h4 {
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: #267e46;
+    background-color: #03bb5f;
     border: 1px solid #555555;
 }
 
@@ -324,7 +324,7 @@ h4 {
     font-size: 60px;
     align-items: center;
     vertical-align: middle;
-    color: #267e46;
+    color: #046b38;
 }
 
 @media only screen and (max-width: 768px) {
@@ -436,7 +436,7 @@ h4 {
         position: absolute;
         height: 3px;
         width: 100%;
-        background-color: #267e46;
+        background-color: #046b38;
         -webkit-transition: -webkit-transform 0.5s cubic-bezier(1, 0, 0, 1);
         transition: -webkit-transform 0.5s cubic-bezier(1, 0, 0, 1);
         transition: transform 0.5s cubic-bezier(1, 0, 0, 1);
@@ -461,7 +461,7 @@ h4 {
         position: absolute;
         height: 3px;
         width: 100%;
-        background-color: #267e46;
+        background-color: #046b38;
         left: 0;
         bottom: 5px;
         -webkit-transform-origin: left;
@@ -482,7 +482,7 @@ h4 {
 
     .navbar-custom .navbar-nav li a.active,
     .navbar-custom .navbar-nav li a:hover {
-        color: #267e46;
+        color: #046b38;
         transition: .7s all ease;
     }
 
@@ -522,7 +522,7 @@ h4 {
 
     .navbar-custom .sub_menu li a:hover,
     .navbar-custom .sub_menu li a.active {
-        color: #267e46;
+        color: #046b38;
     }
 
     .navbar-custom li:hover .sub_menu {
@@ -569,19 +569,29 @@ h4 {
 ....................................*/
 
 .htop {
-    background-color: #267e46;
+    background-color: #046b38;
 }
 
 .htopbar {
     color: #fff;
 }
 
-.htb_item {
-    padding: 10px 0;
+.htb_link {
+    display: flex;
+    height: 60px;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
 }
 
 .htopicon_right {
     justify-content: flex-end;
+}
+
+.htb_item i {
+    padding-right: 5px;
 }
 
 .htb_item a,
@@ -590,15 +600,22 @@ h4 {
 }
 
 .htr_icon a {
-    display: inline-block;
-    width: 35px;
-    padding: 5px 0;
-    margin: 5px 0;
-    margin-left: 20px;
-    color: #fff;
+    display: flex;
+    width: 60px;
+    height: 50px;
+    vertical-align: middle;
+    margin: 5px 0px 5px 20px;
+    color: rgb(255, 255, 255);
     align-items: center;
     text-align: center;
     border-radius: 50%;
+}
+
+.htr_icon a i {
+    font-size: 30px;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 .htr_icon a:hover {
@@ -624,6 +641,14 @@ h4 {
 @media only screen and (max-width: 768px) {
     .htopbar {
         justify-content: space-between;
+    }
+
+    .htb_item {
+        padding: 10px 0;
+    }
+
+    .htb_link {
+        height: 30px;
     }
 
     .htopicon_right {
@@ -657,6 +682,7 @@ h4 {
     .slider_area {
         margin-top: 45px;
     }
+
     .header-slider .item img {
         height: 350px;
     }
@@ -683,7 +709,7 @@ h4 {
 }
 
 .service-item .service-item-list {
-    background-color: #267e46;
+    background-color: #046b38;
     text-align: center;
     width: calc(20% - 20px);
     padding: 60px 30px;
@@ -754,7 +780,7 @@ h4 {
     content: "";
     display: block;
     width: 20%;
-    background-color: #267e46;
+    background-color: #046b38;
     height: 3px;
     margin-top: 2px;
 }
@@ -770,7 +796,7 @@ h4 {
 
 .about-desitem-right a {
     padding: 10px 30px;
-    background-color: #267e46;
+    background-color: #046b38;
     border-radius: 10px;
     font-weight: 500;
     color: #fff;
@@ -801,7 +827,7 @@ h4 {
 }
 
 .choose-item li span {
-    color: #267e46;
+    color: #046b38;
     margin-right: 5px;
 }
 
@@ -863,15 +889,14 @@ h4 {
     width: 100%;
     left: 0;
     text-align: center;
-    background-color: #267e46;
+    background-color: #046b38;
     padding: 10px 0;
 }
 
 .service-body .service-item .ser-item-body a {
     border-radius: 10px;
     font-weight: 500;
-    color: #fff;
-    display: block;
+    color: #000;
 }
 
 @media only screen and (max-width: 575px) {
@@ -894,7 +919,7 @@ h4 {
 21. Section Divider area start here
 ....................................*/
 .section-divider {
-    background-color: #267e46;
+    background-color: #046b38;
 }
 
 .sec-div-body {
@@ -953,7 +978,7 @@ h4 {
 
 .count-item .count-number {
     font-size: 52px;
-    color: #267e46;
+    color: #046b38;
     font-weight: 500;
 }
 
@@ -1018,7 +1043,7 @@ h4 {
 .testimonial-content .testimonial-icon {
     width: 50px;
     height: 45px;
-    background: #267e46;
+    background: #046b38;
     text-align: center;
     font-size: 22px;
     color: #fff;
@@ -1034,7 +1059,7 @@ h4 {
 
 .testimonial-content .testimonial-icon:before {
     content: "";
-    border-bottom: 16px solid #267e46;
+    border-bottom: 16px solid #046b38;
     border-left: 18px solid transparent;
     position: absolute;
     top: -16px;
@@ -1063,7 +1088,7 @@ h4 {
 .testimonial-item .post {
     display: block;
     font-size: 14px;
-    color: #267e46;
+    color: #046b38;
 }
 
 .testimonial-footer {
@@ -1091,7 +1116,7 @@ h4 {
     height: 100px;
     margin-right: 20px;
     border-radius: 50%;
-    border: 3px solid #267e46;
+    border: 3px solid #046b38;
     padding: 5px;
 }
 
@@ -1411,12 +1436,12 @@ h4 {
 }
 
 .service-nav .service-nav-ul li a.active {
-    background-color: #267e46;
+    background-color: #046b38;
     color: #fff;
 }
 
 /* .service-nav .service-nav-ul li a::after {
-    background-color: #267e46;
+    background-color: #046b38;
     content: "";
     top: 0;
     left: 0;
@@ -1428,12 +1453,12 @@ h4 {
 } */
 
 .service-nav .service-nav-ul li a:hover {
-    background-color: #267e46;
+    background-color: #046b38;
     color: #fff;
 }
 
 /* .service-nav .service-nav-ul li a:hover::after {
-    background-color: #267e46;
+    background-color: #046b38;
     display: block;
     transition: 1s all ease-in;
     transform: scale(1);
@@ -1456,8 +1481,19 @@ h4 {
 }
 
 .service-item-content .sic-header img {
-    width: 100%;
+    width: 50%;
     height: 100%;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .service-item-content .sic-header img {
+        width: 100%;
+    }
+    .service-nav{
+        margin-bottom: 50px;
+    }
 }
 
 
@@ -1469,7 +1505,7 @@ h4 {
     content: "";
     display: block;
     width: 20%;
-    background-color: #267e46;
+    background-color: #046b38;
     height: 3px;
     margin-top: 2px;
 }
@@ -1489,7 +1525,7 @@ h4 {
     content: "";
     display: block;
     width: 20%;
-    background-color: #267e46;
+    background-color: #046b38;
     height: 2px;
     margin-top: 5px;
 }
@@ -1504,7 +1540,7 @@ h4 {
 
 .service-item-content .sic-footer .sic-footer-features li i {
     margin-right: 5px;
-    color: #267e46;
+    color: #046b38;
 }
 
 .service-item-content .sic-footer p {
@@ -1747,12 +1783,13 @@ h4 {
 }
 
 .footer-item-list li a {
-    color: #267e46;
+    color: #046b38;
 }
 
 .footer-left-icon a {
-    padding: 10px 15px;
+    padding: 10px 20px;
     margin-right: 5px;
+    font-size: 26px;
     border-radius: 5px;
 }
 
@@ -1778,9 +1815,21 @@ h4 {
     overflow: hidden;
 }
 
+@media only screen and (max-width: 992px) {
+    .footer-left-icon a {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .footer_item h3 {
         margin: 20px 0;
+    }
+
+    .footer-left-icon a {
+        padding: 10px 20px;
+        font-size: 30px;
     }
 }
 
@@ -1790,7 +1839,7 @@ h4 {
 ....................................*/
 
 .footer_bottom {
-    background-color: #267e46;
+    background-color: #046b38;
     padding: 10px 0;
     margin: 0 auto;
 }
@@ -1801,7 +1850,7 @@ h4 {
 }
 
 .footer_bottom p a {
-    color: #000;
+    color: #25D366;
 }
 
 .footer_bottom p a:hover {
@@ -1816,15 +1865,31 @@ h4 {
 
 
 /*....................................
-21. Footer area end here
+21. Contact no fixed area end here
 ....................................*/
+.contact-no-fixed {
+    z-index: 99999;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    padding: 5px 0;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+    fill: #ffffff;
+    color: #ffffff;
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    border-radius: 200px 200px 200px 200px;
+    box-shadow: 0px 0px 25px 0px rgb(53 56 240 / 35%);
+}
 
+.contact-no-fixed:hover {
+    background-color: #00dafc;
+    color: #fff;
+    transition: 1s all ease;
+}
 
-
-
-/*....................................
-22. Event area start here
-....................................*/
-
-
-/*# sourceMappingURL=style.css.map */
+.contact-no-fixed span i {
+    font-size: 18px;
+}
